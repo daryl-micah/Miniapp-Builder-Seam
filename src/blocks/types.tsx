@@ -457,4 +457,15 @@ export const BlockTypes: { [key: string]: BlockType } = {
     createdBy: "seam",
     fullscreenEdit: false,
   },
+  "Dino": { 
+    type: "Dino",
+    displayName: "Dino",
+    displayDescription: "An endless adventure with Dino",
+    icon: "DinoIcon", // TODO: insert your app icon here
+    deprecated: false,
+    doesBlockPost: true,
+    doesBlockEdit: true,
+    createdBy: "darylm",
+    fullscreenEdit: false,
+},
 };
